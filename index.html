@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>UI Challenge 2</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/styles.css">
+  </head>
+  <body>
+    <h1>UI Challenge - Custom Form Elements</h1>
+    <form id="form">
+        <div id="input">
+          <label for="input">Text Input</label>
+          <input type="text" id="input" name="input" placeholder="placeholder text">
+        </div>
+        <div id="validation">
+          <label for="inputError">Text Input with Validation error</label>
+          <input type="text" id="input" name="inputError" placeholder="placeholder text" required>
+        </div>
+        <div id="select">
+          <label>Select Box</label>
+          <select id="select_box" placeholder="Please select an option...">
+              <option value="1">Option 1</option>
+              <option value="2">Option 2</option>
+              <option value="3">Option 3</option>
+              <option value ="4">Option 4</option>
+              <option value="5">Option 5</option>
+          </select>  
+        </div>
+        <div id="checkbox">
+          <label for"checkBox">Checkbox</label>
+          <input id="checkBox" type="checkbox">
+          <input id="checkBox" type="checkbox">
+        </div>
+        <div id="radio">
+          <label for"radioButton">Radio</label>
+          <input id="radioButton" type="radio">
+          <input id="radioButton" type="radio">
+        </div>
+        <div class="button_left">
+          <button type="submit">Submit</button>
+        </div>
+        <div class="button_right">
+          <button type="button">Submit</button>
+        </div>
+    </form>
+  </body>
+  <script src="scripts/app.js"></script>
+</html>

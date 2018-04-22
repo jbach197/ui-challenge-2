@@ -1,0 +1,29 @@
+input:invalid {
+    border: 1px solid red;
+}
+body {
+    margin: 2em;
+}
+
+input {
+    font-size: 1em;
+    margin: 1em;
+
+}
+
+checkbox{
+    margin: 1em;
+}
+
+.button_left{
+    float: left;
+    margin-right: 1em;
+    width: 3em;
+}
+.button_right{
+    background-color: black;
+    color: white;
+    float: right;
+    margin-left: 1em;
+    width: 3em;
+}
