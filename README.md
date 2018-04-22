@@ -15,8 +15,10 @@
 Normalized CSS from  https://necolas.github.io/normalize.css/-->
 
 ## Change Log
-<!-- 04-22-2018 4:59pm - Initla scaffold.
+<!-- 04-22-2018 11:45am - Initial scaffold.
+04-22-2018 1:25pm - Added HTML
+04-22-2018 2:25pm - Final commit
 -->
 
 ## Credits and Collaborations
-<!-- Give credit (and a link) to other people or resources that helped you build this application. -->
+<!-- Various articles on MDN and google. -->
